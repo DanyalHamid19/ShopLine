@@ -1,0 +1,19 @@
+.heading{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.cardd{
+    margin-bottom: 10px;
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.picture{
+    padding-top: 20px;
+}
+
+.footer{
+    padding-bottom: 10px;
+}
