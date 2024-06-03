@@ -2,10 +2,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import { useSelector } from "react-redux";
+import { useSelector } from "react-redux"; // used to display cart items in screen
 
 function Navbar() {
-  const cartProducts=useSelector(state=>state.cart)
+  const cartProducts=useSelector(state=>state.cart) // number of cart items
   return (
     <nav
       className="navbar navbar-expand-lg navbar-light"
